@@ -1,4 +1,5 @@
-# React + Vite
+# Movie Time
+### (React + Vite) 
 
 Learned React concepts 
 
