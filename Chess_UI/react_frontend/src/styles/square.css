@@ -1,0 +1,13 @@
+/*if black display black square else display white square*/
+
+.black {
+    background-color: black;
+}
+.white {
+    background-color: white;
+}
+
+.selected {
+  border: 3px solid red;
+}
+
