@@ -105,6 +105,7 @@ function Board() {
             setBoard(updatedBoard);
             setturn("white");
             setSelectedSquare(null);
+            setValidMoves([]);
         }
         } else {
 

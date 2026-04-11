@@ -16,8 +16,9 @@ export const getLegalMoves = (board, position) => {
         const phantomBoard = simulateMove(board, position, move);
 
         const color = piece.color;
+
         let kingPos = null;
-        board.forEach((row, r) => row.forEach((piece, c) => {
+        phantomBoard.forEach((row, r) => row.forEach((piece, c) => {
         if (piece?.type === 'king' && piece?.color === color) {
             kingPos = { row: r, col: c };
         }}));
